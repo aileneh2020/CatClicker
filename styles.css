@@ -1,0 +1,73 @@
+body {
+  font-family: arial;
+  background-color: #009eff;
+}
+
+header {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 1%;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  min-width: 850px;
+}
+
+#catList {
+  background-color: white;
+  width: 20%;
+  max-width: 350px;
+  min-height: 400px;
+  padding: 3% 2% 2%;
+}
+
+#catList button {
+  width: 180px;
+  font-size: 18px;
+  color: #009eff;
+  padding: 5px;
+  align-self: center;
+}
+
+#catList button:hover {
+  border: 2px solid blue;
+}
+
+#catDisplay {
+  background-color: white;
+  width:25%;
+  min-height: 400px;
+  min-width:250px;
+  padding: 10px 30px;
+}
+
+.cat-pic {
+  width: 180px;
+  height: 240px;
+}
+
+#admin {
+  background-color: white;
+  width: 30%;
+  min-height: 400px;
+  min-width:250px;
+  padding: 3% 2% 2%;
+}
+
+#admin button {
+  wdith: 100px;
+  font-size: 14px;
+  padding: 5px;
+  margin: 0 0 20px 0;
+  align-self: center;
+}
+
+#admForm {
+  visibility: hidden;
+}
+
+#admNumClicks {
+  width: 80px;
+}
